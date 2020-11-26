@@ -1,0 +1,30 @@
+.event {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
+  background-color: #31393c;
+  border: 1px solid #31393c;
+  border-radius: 32px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 56px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.description {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
