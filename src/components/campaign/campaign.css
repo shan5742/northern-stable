@@ -75,6 +75,10 @@ span {
   font-weight: 700;
 }
 
+.button:focus {
+  outline: none;
+}
+
 .voucherSection {
   display: flex;
   flex-direction: column;
