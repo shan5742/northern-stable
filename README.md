@@ -1,6 +1,6 @@
 # Northern Stable
 
-Solution for technical test for Northern Stable, you can view details of the test [here](https://github.com/Northern-Stable/Front-End-Tech-Test).
+Solution for technical test for Northern Stable, you can view details of the test [here](https://github.com/Northern-Stable/Front-End-Tech-Test). This application is deployed [here](https://northern-stable.netlify.app/).
 
 ## Running Locally
 
@@ -53,3 +53,13 @@ docker-compose run --rm test
 ```
 
 The output from the tests will now display in the terminal.
+
+## Working On This Application
+
+### Dev
+
+There are a number of environments setup to enable a solid workflow for working on this app. Any experimental work on new features can be done on branches and merged into the `dev` branch, when this is pushed to it triggers a build and can be tested in a production state [here](https://northern-stable-dev.netlify.app/).
+
+### Staging
+
+Similarly there is a `staging` branch setup, which when pushed to triggers a build and can be seen in a production state [here](https://northern-stable-staging.netlify.app/). The next step would be the production site, which is the live URL [here](https://northern-stable.netlify.app/). The `main` branch in this repository is essentially the production branch, which again triggers a build once pushed to. Anything pushed into the `main` branch should be well tested and reviewed first, so this branch is protected, submit a pull request and after a successful review I will merge into production.
