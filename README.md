@@ -8,6 +8,12 @@ You must have Docker and Docker compose installed on your machine, if you haven'
 
 ## Running with Docker
 
+Clone the `docker` branch:
+
+```
+git clone --single-branch --branch docker https://github.com/shan5742/northern-stable.git
+```
+
 To build the app:
 
 ```
