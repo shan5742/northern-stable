@@ -7,6 +7,7 @@
   margin: 30px 0;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .title {
@@ -65,7 +66,7 @@ span {
   margin: 10px 0;
 }
 
-.moreInfo {
+.button {
   background-color: transparent;
   border: none;
   color: #8bcdcd;
@@ -89,4 +90,13 @@ span {
   letter-spacing: 4px;
   font-size: 32px;
   margin-bottom: 0;
+}
+
+.preview {
+  margin: 30px 0;
+}
+
+iframe {
+  width: 600px;
+  height: 400px;
 }
