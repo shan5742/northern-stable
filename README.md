@@ -21,3 +21,7 @@ If you have Docker and Docker compose installed on your machine then you can alt
 ## Production
 
 A production version of this application is deployed via [Netlify](https://www.netlify.com/), to view visit [this link](https://northern-stable.netlify.app/)
+
+## Notes
+
+The preview section of each campaign is using an iframe wit the `srcdoc` attribute, which may not work in all browsers, for more information on browser support you can check [here](https://caniuse.com/iframe-srcdoc)
