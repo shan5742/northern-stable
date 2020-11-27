@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./campaign.css";
-import parse from "html-react-parser";
 import { formatDate } from "../../helpers/format-date/formatDate";
 import { handleDate } from "../../helpers/handle-date/handleDate";
 
@@ -34,7 +33,7 @@ export default function Campaign(props) {
       <div className="statusWrap">
         <p className="statusHeading">status</p>
         <p className="status">
-          {is_enabled === false ? "Inactive" : handleDate(ends_at)}
+          {is_enabled === false && starts_at ? "Inactive" : handleDate(ends_at)}
         </p>
       </div>
       <button className="moreInfo" onClick={() => setMore(!more)}>

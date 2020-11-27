@@ -1,4 +1,4 @@
-import { isAfter } from "date-fns/esm";
+import { isAfter } from "date-fns";
 
 export const handleDate = (date) => {
   let day = Date.parse(date);

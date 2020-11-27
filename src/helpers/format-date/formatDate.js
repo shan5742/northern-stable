@@ -1,4 +1,4 @@
-import { format } from "date-fns/esm";
+import { format } from "date-fns";
 
 export const formatDate = (date) => {
   let day = new Date(date);
