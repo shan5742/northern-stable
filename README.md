@@ -1,6 +1,14 @@
 # Northern Stable
 
-Solution for technical test for Northern Stable, you can view details of the test [here](https://github.com/Northern-Stable/Front-End-Tech-Test). This application is deployed [here](https://northern-stable.netlify.app/).
+## Contents
+
+1. [Local setup](#running-locally)
+2. [Docker](#running-with-docker)
+3. [Development](#working-on-this-application)
+
+Solution for technical test for Northern Stable, you can view details of the test [here](https://github.com/Northern-Stable/Front-End-Tech-Test). This application is deployed [here](https://northern-stable.netlify.app/). I opted to build this application with React and more specifically the Create React App cli for getting up and running quickly, tests are written in jest, which are configured and work out the box with React. For deployment I opted for Netlify as I am familiar and it works seamlessly with Github, whenever a branch is pushed to it triggers a build and updates the site.
+
+This particular application has three branches triggering Netlify builds - `main`(production), `staging` and `dev`.
 
 ## Running Locally
 
