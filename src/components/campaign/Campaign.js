@@ -13,7 +13,6 @@ export default function Campaign(props) {
     starts_at,
     ends_at,
     is_enabled,
-    html,
     screenshot_url,
   } = props.event;
 
