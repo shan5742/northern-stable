@@ -6,7 +6,7 @@ Solution for technical test for Northern Stable, you can view details of the tes
 
 Simply run the following commands:
 
-```
+```bash
 git clone https://github.com/shan5742/northern-stable.git
 yarn
 yarn start
@@ -14,14 +14,22 @@ yarn start
 
 You should now be able to see the application at <http://localhost:3000/>
 
-## Running in Docker
+## Running with Docker
 
-If you have Docker and Docker compose installed on your machine then you can alternatively get the application running in Docker, instructions for this can be found on the `Docker` branch [here](https://github.com/shan5742/northern-stable/tree/docker).
+### Prerequisites
 
-## Production
+You must have Docker and Docker compose installed on your machine, if you haven't but would like to then see the [Docker Docs](https://docs.docker.com/get-docker/). For Docker Compose you can follow [these instructions](https://docs.docker.com/compose/install/).
 
-A production version of this application is deployed via [Netlify](https://www.netlify.com/), to view visit [this link](https://northern-stable.netlify.app/)
+To build the app:
 
-## Notes
+```bash
+docker-compose build dev
+```
 
-The preview section of each campaign is using an iframe wit the `srcdoc` attribute, which may not work in all browsers, for more information on browser support you can check [here](https://caniuse.com/iframe-srcdoc)
+To run the application:
+
+```bash
+docker-compose up dev
+```
+
+You should now be able to view the application at <http://localhost:4680/>
