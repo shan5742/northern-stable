@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   padding: 30px 60px;
-  border: 1px solid #31393c;
+  background-color: #31393c;
   border-radius: 32px;
   margin: 30px 0;
   justify-content: center;
@@ -10,20 +10,83 @@
 }
 
 .title {
-  color: #31393c;
-  font-size: 56px;
+  color: #ffffff;
+  font-size: 48px;
   font-weight: 900;
   margin: 0;
+  text-align: center;
 }
 
 .description {
-  color: #31393c;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   margin: 20px 0;
+  text-align: center;
 }
 
 img {
   width: 400px;
   height: auto;
+}
+
+.dateWrap {
+  display: flex;
+  margin: 20px 0;
+}
+
+.date {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+span {
+  font-weight: 700;
+  color: #fdca40;
+}
+
+.statusWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statusHeading {
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+
+.status {
+  font-weight: 900;
+  font-size: 25px;
+  color: #fdca40;
+  margin: 10px 0;
+}
+
+.moreInfo {
+  background-color: transparent;
+  border: none;
+  color: #8bcdcd;
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.voucherSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background-color: #c7ced1;
+  margin: 20px 0;
+}
+
+.code {
+  color: #31393c;
+  font-weight: 900;
+  letter-spacing: 4px;
+  font-size: 32px;
+  margin-bottom: 0;
 }
